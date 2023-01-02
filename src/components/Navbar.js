@@ -31,7 +31,7 @@ const Navbar = () => {
     <NavWrapper>
 
    
-    <div className='h-[80px] bg-gradient-to-t from-indigo-200  bg-white'>
+    <div className=''>
         <div className=' h-20 w-full bg-black fixed top-0'>
             <div className='container mx-auto py-6 flex items-center justify-between'>
              <div>
