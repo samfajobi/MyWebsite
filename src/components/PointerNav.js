@@ -34,12 +34,11 @@ const PointerWrap = styled.section`
 `;
 
 const data = [
-	{ title: 'lead story', to: 'top-story' },
-	{ title: 'social media', to: 'in-the-news' },
-	{ title: 'top stories', to: 'social-media' },
-	{ title: 'career', to: 'careers' },
-	{ title: 'awards', to: 'awards' },
-	{ title: 'our brand', to: 'brand-slider' },
+	{ title: 'Home', to: 'top-story' },
+	{ title: 'About', to: 'in-the-news' },
+	{ title: 'Work', to: 'social-media' },
+	{ title: 'Skills', to: 'careers' },
+	{ title: 'Contact', to: 'awards' },
 ];
 
 const PointerNav = () => {

@@ -59,7 +59,7 @@ const Navbar = () => {
               </div> 
              <div>
               <div className='text-white hidden md:block  cursor-pointer'>
-                <span className='text-1xl text-white'>Resume</span> <FontAwesomeIcon icon={faFolderOpen} />
+                <span className='font-bold text-l text-white'>Resume</span> <FontAwesomeIcon icon={faFolderOpen} />
              </div>   
               <div onClick={handleClick}  className=' text-white space-y-6 cursor-pointer md:hidden'>
                 { !nav ? <FontAwesomeIcon icon={faBars} /> : <FontAwesomeIcon icon={faXmark} />}
