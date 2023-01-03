@@ -6,7 +6,6 @@ import { motion } from "framer-motion";
 import { AppWrap, MotionWrap } from "../wrapper";
 // import { urlFor, client } from "../../client";
 // import "./Skills.sass";
-
 const Skills = () => {
   const [experience, setExperience] = useState([]);
   const [skills, setSkills] = useState([]);
