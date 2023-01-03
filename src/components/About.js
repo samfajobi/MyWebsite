@@ -5,7 +5,7 @@ import TwitterIcon from "../../assets/svg/TwitterIcon";
 import { useEffect, useState } from "react";
 import FaderWrap from "../FaderWrap";
 import NextIcon from "../../assets/svg/NextIcon";
-import { client } from "../../client";
+// import { client } from "../../client";
 import NewsWrapper from "./style/newsStyle";
 
 
