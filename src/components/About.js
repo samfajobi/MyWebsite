@@ -141,7 +141,7 @@ const NewsSlider = (props) => {
 
   return (
     <FaderWrap>
-      <NewsWrapper className='px-4 py-2 lg:px-16 relative mb-10' {...props}>
+      <NewsWrapper className='px-4 py-16 lg:px-16 relative mb-10' {...props}>
         {data.length > 0 && (
           <div className='relative flex justify-center'>
             <ol className='flex w-10 justify-between h-2 mini-caurosel lg:ml-56 absolute z-10'>
@@ -167,15 +167,6 @@ const NewsSlider = (props) => {
                   }
                 }}
               ></li>
-              <li
-                className={`cursor-pointer inline-block w-1/5 border border-white ${
-                  newsIndex === 2 ? "bg-white" : ""
-                }`}
-                onClick={() => {
-                  setNewsIndex(2);
-                  setIsScroll(true);
-                }}
-              ></li>
             </ol>
             <div className='lg:justify-center lg:flex-row relative 2xl:w-8/12 '>
               <div className='flex flex-col lg:justify-center lg:flex-row overflow-hidden relative'>
@@ -186,13 +177,13 @@ const NewsSlider = (props) => {
                       initial='rest'
                       animate='hover'
                       variants={ContentVaraint}
-                      key={news[newsIndex]?._id}
+                      key={data[newsIndex].img}
                       exit={{ visibility: "hidden" }}
                     >
                       <div className=' w-full lg:w-10/12 cont-height'>
                         <img
-                          src={data.img}
-                          alt={news[newsIndex]?.altText}
+                          src={data[newsIndex].img}
+                          alt={data[newsIndex].altText}
                           className='h-full object-cover w-full'
                         />
                       </div>
@@ -202,7 +193,7 @@ const NewsSlider = (props) => {
                         </p>
                         <motion.header className='relative flex flex-col'>
                           <h1 className='text-gray-700 text-xl font-bold mb-6'>
-                            {data.headerText}
+                          {data[newsIndex].headerText}
                           </h1>
                           <section className='flex justify-center items-center'>
                             <div className='flex w-3/4 h-auto'>
@@ -214,7 +205,11 @@ const NewsSlider = (props) => {
                               ></motion.div>
                               <div className=''>
                                 <p className='text-gray-600 text-sm font-medium mb-2'>
-                                  {data.descText}
+                                {
+																	data[
+																		newsIndex
+																	].descText
+																}
                                 </p>
                                 <a
                                   href={`articles/${newsIndex}`}
@@ -235,7 +230,7 @@ const NewsSlider = (props) => {
                 </div>
               </div>
               <h2 className='font-bold capitalize text-3xl inline-block text-gray-600 absolute lg:ml-52 z-10 pl-32'>
-               About Medffffffffffffffffffffffffffffff
+               About Me
               </h2>
             </div>
           </div>

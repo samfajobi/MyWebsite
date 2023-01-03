@@ -8,7 +8,7 @@ import Skills from './components/Skills/Skills';
 function App() {
   return (
     <div>
-      {/* <Home /> */}
+      <Home />
       <About />
       <Skills />
       <Contact />
