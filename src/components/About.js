@@ -1,12 +1,12 @@
 import { AnimatePresence, motion } from "framer-motion";
-import { data, useTwitter } from "../../data/newsSlider";
-import OpenLinkIcon from "../../assets/svg/OpenLinkIcon";
-import TwitterIcon from "../../assets/svg/TwitterIcon";
+import { data } from "../data/About";
+// import OpenLinkIcon from "../../assets/svg/OpenLinkIcon";
+// import TwitterIcon from "../../assets/svg/TwitterIcon";
 import { useEffect, useState } from "react";
-import FaderWrap from "../FaderWrap";
-import NextIcon from "../../assets/svg/NextIcon";
+import FaderWrap from "./FaderWrap";
+import NextIcon from "../assets/svg/NextIcon";
 // import { client } from "../../client";
-import NewsWrapper from "./style/newsStyle";
+import NewsWrapper from "./style/aboutStyle";
 
 
 
@@ -18,7 +18,7 @@ const NewsSlider = (props) => {
   const [isScroll, setIsScroll] = useState(true);
   const [isTweetScroll, setIsTweetScroll] = useState(true);
 
-  const [tweets, isError, isLoading] = useTwitter();
+  // const [tweets, isError, isLoading] = useTwitter();
 
   const [news, setNews] = useState([ ]);
 
@@ -66,33 +66,33 @@ const NewsSlider = (props) => {
     },
   };
 
-  useEffect(() => {
-    if (news.length === 0) {
-      client
-        .fetch(
-          `*[_type == "globalnews"]{
-          _id,
-          altText,
-          descText,
-          details,
-          headerText,
-          img{
-            asset->{
-              _id,
-              url
-            },
-          },
-          images,
-        }`
-        )
-        .then((data) => setNews(data))
-        .catch(console.error);
-    }
-  }, [news.length]);
+  // useEffect(() => {
+  //   if (news.length === 0) {
+  //     client
+  //       .fetch(
+  //         `*[_type == "globalnews"]{
+  //         _id,
+  //         altText,
+  //         descText,
+  //         details,
+  //         headerText,
+  //         img{
+  //           asset->{
+  //             _id,
+  //             url
+  //           },
+  //         },
+  //         images,
+  //       }`
+  //       )
+  //       .then((data) => setNews(data))
+  //       .catch(console.error);
+  //   }
+  // }, [news.length]);
 
   //news slider control
   const slideNewsRight = () => {
-    setNewsIndex((newsIndex + 1) % news?.length); // increases index by 1
+    setNewsIndex((newsIndex + 1) % data.length); // increases index by 1
     // setSocialIndex((socialIndex + 1) % [0, 1, 2].length);
   };
   const slideSocials = () => {
@@ -101,7 +101,7 @@ const NewsSlider = (props) => {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setNewsIndex((newsIndex + 1) % news?.length);
+      setNewsIndex((newsIndex + 1) % data.length);
     }, 6000);
     const indexTimer = setTimeout(() => {
       setSocialIndex((socialIndex + 1) % [0, 1, 2].length);
@@ -112,37 +112,37 @@ const NewsSlider = (props) => {
       clearTimeout(indexTimer);
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [newsIndex, socialIndex, news.length]);
+  }, [newsIndex, socialIndex, data.length]);
 
 
-   useEffect(() => {
-    client
-      .fetch(
-        `*[_type == "globalnews"]{
-          _id,
-          altText,
-          descText,
-          details,
-          headerText,
-          img{
-            asset->{
-              _id,
-              url
-            },
-          },
-          images,
-        }`
-      )
-      .then((data) => setNews(data))
-      .catch(console.error);
-  }, []);
+  //  useEffect(() => {
+  //   client
+  //     .fetch(
+  //       `*[_type == "globalnews"]{
+  //         _id,
+  //         altText,
+  //         descText,
+  //         details,
+  //         headerText,
+  //         img{
+  //           asset->{
+  //             _id,
+  //             url
+  //           },
+  //         },
+  //         images,
+  //       }`
+  //     )
+  //     .then((data) => setNews(data))
+  //     .catch(console.error);
+  // }, []);
 
   
 
   return (
     <FaderWrap>
       <NewsWrapper className='px-4 py-2 lg:px-16 relative mb-10' {...props}>
-        {news.length > 0 && (
+        {data.length > 0 && (
           <div className='relative flex justify-center'>
             <ol className='flex w-10 justify-between h-2 mini-caurosel lg:ml-56 absolute z-10'>
               <li
@@ -191,7 +191,7 @@ const NewsSlider = (props) => {
                     >
                       <div className=' w-full lg:w-10/12 cont-height'>
                         <img
-                          src={news[newsIndex]?.img.asset.url}
+                          src={data.img}
                           alt={news[newsIndex]?.altText}
                           className='h-full object-cover w-full'
                         />
@@ -202,7 +202,7 @@ const NewsSlider = (props) => {
                         </p>
                         <motion.header className='relative flex flex-col'>
                           <h1 className='text-gray-700 text-xl font-bold mb-6'>
-                            {news[newsIndex]?.headerText}
+                            {data.headerText}
                           </h1>
                           <section className='flex justify-center items-center'>
                             <div className='flex w-3/4 h-auto'>
@@ -214,7 +214,7 @@ const NewsSlider = (props) => {
                               ></motion.div>
                               <div className=''>
                                 <p className='text-gray-600 text-sm font-medium mb-2'>
-                                  {news[newsIndex]?.descText}
+                                  {data.descText}
                                 </p>
                                 <a
                                   href={`articles/${newsIndex}`}
@@ -235,7 +235,7 @@ const NewsSlider = (props) => {
                 </div>
               </div>
               <h2 className='font-bold capitalize text-3xl inline-block text-gray-600 absolute lg:ml-52 z-10 pl-32'>
-               About Me
+               About Medffffffffffffffffffffffffffffff
               </h2>
             </div>
           </div>
