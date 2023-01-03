@@ -141,7 +141,7 @@ const NewsSlider = (props) => {
 
   return (
     <FaderWrap>
-      <NewsWrapper className='px-4 py-16 lg:px-16 relative mb-10' {...props}>
+      <NewsWrapper className='px-4 py-24 bg-gray-100 lg:px-16 relative mb-10' {...props}>
         {data.length > 0 && (
           <div className='relative flex justify-center'>
             <ol className='flex w-10 justify-between h-2 mini-caurosel lg:ml-56 absolute z-10'>

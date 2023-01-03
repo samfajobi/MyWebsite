@@ -1,4 +1,4 @@
-import DSC_8984 from '../assets/images/aboutSlider/DSC_8984.jpg';
+import DSC_8984 from '../assets/images/aboutSlider/MyImage2.jpg';
 import DSC_9106 from '../assets/images/aboutSlider/DSC_9106.jpg';
 import DSC_9149 from '../assets/images/aboutSlider/DSC_9149.jpg';
 import DSC_9188 from '../assets/images/aboutSlider/DSC_9188.jpg';

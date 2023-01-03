@@ -166,11 +166,10 @@ const Slider = (props) => {
       >
         <PointerNav />
         <ArrowNavigation to='in-the-news' />
-        {images[index]?.img?.asset?.url && (
           <AnimatePresence>
             <motion.img
               // src={sliderData[index]?.img?.asset?.url}
-              src={images[index]?.img?.asset?.url}
+              src={images[index].img}
               className='z-10 relative top-0 h-screen w-full object-cover'
               alt='slider image'
               // variants={HoverVariant}
@@ -192,7 +191,7 @@ const Slider = (props) => {
               animate='hover'
               variants={ContentVaraint}
               // key={sliderData[index]?.headerContent}
-              key={images[index]?.headerContent}
+              key={images[index].headerContent}
               exit={{ opacity: 0 }}
               className='absolute z-30 top-1/3 flex lg:w-3/5 2xl:w-2/5  flex-col px-4 py-2 lg:px-16'
             >
@@ -232,7 +231,7 @@ const Slider = (props) => {
                     <div className=''>
                       <p className='text-white text-base font-medium mb-2'>
                         {/* {sliderData[index]?.descContent} */}
-                        {images[index]?.descContent}
+                        {images[index].descContent}
                       </p>
                     </div>
                   </div>
@@ -252,7 +251,7 @@ const Slider = (props) => {
 							</span> */}
             </div>
             <div className='flex w-full mb-2'>
-              {images?.map((image, i) => (
+              {images.map((image, i) => (
                 <motion.span
                   initial={{ opacity: 0, x: -100 }}
                   animate={{ opacity: 1, x: 0 }}
