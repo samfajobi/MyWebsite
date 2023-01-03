@@ -1,6 +1,8 @@
 import styled from "styled-components"
 import  Navbar  from "./Navbar";
 import Slider from "./Slider";
+import About from "./About";
+
 
 
 const HomeWrapper = styled.div`
@@ -30,7 +32,8 @@ const Home = props => {
             className='w-full h-full invisible'
           />
 		   </HeroSectionWrap>
-       <Slider></Slider>
+       <Slider id="home"/>
+       <About id="about"/>
     </HomeWrapper>
    
     // <div className="h-screen w-full bg-zinc-200 flex flex-col justify-between">

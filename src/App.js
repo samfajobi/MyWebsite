@@ -10,8 +10,7 @@ function App() {
   return (
     <div>
       <Home />
-      <About />
-      <Projects />
+      <Projects id="projects"/>
       <Skills />
       <Contact />
     </div>

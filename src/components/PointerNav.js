@@ -34,9 +34,9 @@ const PointerWrap = styled.section`
 `;
 
 const data = [
-	{ title: 'Home', to: 'top-story' },
-	{ title: 'About', to: 'in-the-news' },
-	{ title: 'Work', to: 'social-media' },
+	{ title: 'Home', to: 'home' },
+	{ title: 'About', to: 'about' },
+	{ title: 'Work', to: 'projects' },
 	{ title: 'Skills', to: 'careers' },
 	{ title: 'Contact', to: 'awards' },
 ];
