@@ -33,7 +33,7 @@ const AwardWrap = styled.section`
 
 const Awards = (props) => {
 
-	const [awards, setAwards] = useState([]);
+	// const [awards, setAwards] = useState([]);
 
   //   useEffect(() => {
 	// 	client
@@ -58,7 +58,7 @@ const Awards = (props) => {
 				className=' mt-16 mb-16 relative flex justify-center'
 				{...props}
 			>
-				<div className='flex justify-center w-full 2xl:w-8/12 h-full px-4 py-2 lg:px-8'>
+				<div className='flex justify-center bg-gray-100 w-full 2xl:w-8/12 h-full px-4 py-2 lg:px-8'>
 					<div className='bg-white w-full h-full flex justify-center items-center relative'>
 						<div className='bg-white w-11/12 h-5/6 px-4 mx-4 py-2 overflow-x-auto scrollbar-hidden rounded-lg'>
 							<ul className='flex h-full items-center space-x-8 justify-between award-wrap'>
@@ -118,7 +118,7 @@ const Awards = (props) => {
 							</ul>
 						</div>
 						<h2 className='font-bold capitalize text-3xl inline-block  text-gray-600 absolute z-10'>
-							awards & achievements
+							My Personal Projects
 						</h2>
 					</div>
 				</div>
