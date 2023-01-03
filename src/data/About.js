@@ -1,5 +1,5 @@
 import DSC_8984 from '../assets/images/aboutSlider/MyImage2.jpg';
-import DSC_9106 from '../assets/images/aboutSlider/DSC_9106.jpg';
+import DSC_9106 from '../assets/images/aboutSlider/PortImage5.jpg';
 import DSC_9149 from '../assets/images/aboutSlider/DSC_9149.jpg';
 import DSC_9188 from '../assets/images/aboutSlider/DSC_9188.jpg';
 import DSC_9200 from '../assets/images/aboutSlider/DSC_9200.jpg';
@@ -104,7 +104,7 @@ export const data = [
 		],
 	},
 	{
-		img: DSC_8984,
+		img: DSC_9106,
 		altText: 'lagos smart meter hackathon',
 		headerText: 'Lagos state smart meter hackathon',
 		descText:

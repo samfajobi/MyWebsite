@@ -188,9 +188,9 @@ const NewsSlider = (props) => {
                         />
                       </div>
                       <div className='bg-white w-full lg:w-10/12 arrow px-4 py-8'>
-                        <p className='uppercase text-xs text-blue-500 mb-14'>
-                          press release
-                        </p>
+                        {/* <p className='uppercase text-xs text-blue-500 mb-14'>
+                          press releaseytyty
+                        </p> */}
                         <motion.header className='relative flex flex-col'>
                           <h1 className='text-gray-700 text-xl font-bold mb-6'>
                           {data[newsIndex].headerText}
