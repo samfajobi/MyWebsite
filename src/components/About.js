@@ -233,88 +233,9 @@ const NewsSlider = (props) => {
                     </motion.section>
                   </AnimatePresence>
                 </div>
-                {/* <section className='section-2 relative mt-   8 lg:mt-0'> */}
-                  {/* <ol className='flex w-10 justify-between h-2 social-caurosel absolute z-10'>
-                    {[0, 1, 2].map((i) => (
-                      <li
-                        key={i}
-                        className={`cursor-pointer inline-block w-1/5 border border-white ${
-                          socialIndex === i ? "bg-white" : ""
-                        }`}
-                        onClick={() => {
-                          setSocialIndex(i);
-                          if (i < 1) {
-                            setIsTweetScroll(false);
-                          } else {
-                            setIsTweetScroll(true);
-                          }
-                        }}
-                      ></li>
-                    ))}
-                  </ol> */}
-
-                  {/* <a
-                    href='https://twitter.com/search?q=mojec'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    className='section-2 relative mb-8 lg:mb-0 flex pl-8 pr-4 py-8 flex-col'
-                    // className='flex pl-8 pr-4 py-8 flex-col'
-                  >
-                    <TwitterIcon className='mb-12' />
-                    <div className='overflow-hidden'>
-                      {isLoading && (
-                        <p className='text-white text-center'>
-                          Loading tweets....
-                        </p>
-                      )}
-                      {isError && (
-                        <p className='text-white text-center'>
-                          Error loading tweets!
-                        </p>
-                      )}
-                      {tweets && tweets.length < 1 ? (
-                        <p className='text-white text-center'>
-                          No tweet to display!!
-                        </p>
-                      ) : (
-                        <AnimatePresence>
-                          <motion.section
-                            className='flex h-auto relative'
-                            initial='rest2'
-                            animate='hover2'
-                            variants={ContentVaraint}
-                            key={tweets && tweets[socialIndex].id}
-                            exit={{
-                              visibility: "hidden",
-                            }}
-                          >
-                            <motion.div
-                              initial='borderRest'
-                              animate='borderAnimate'
-                              variants={ContentVaraint}
-                              className='border-white border-l h-auto mr-2'
-                            ></motion.div>
-                            <div className=''>
-                              <p className='text-sm font-medium text-white mb-1'>
-                                {tweets && tweets[socialIndex].text}
-                              </p>
-                              <p className='text-white italic text-xs'>
-                                {tweets &&
-                                  tweets[socialIndex].created_at.substr(0, 10)}
-                              </p>
-                              <div className='flex justify-end items-center absolute right-0 top-64'>
-                                <OpenLinkIcon />
-                              </div>
-                            </div>
-                          </motion.section>
-                        </AnimatePresence>
-                      )}
-                    </div>
-                  </a> */}
-                {/* </section> */} 
               </div>
               <h2 className='font-bold capitalize text-3xl inline-block text-gray-600 absolute lg:ml-52 z-10 pl-32'>
-                in the news
+               About Me
               </h2>
             </div>
           </div>
