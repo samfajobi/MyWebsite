@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 // import { urlFor, client } from "../../client";
 import { useState, useEffect } from "react"
-import { awards } from '../../data/awards';
+import { awards } from '../data/awards';
 import SkewWraper from './SkewWraper';
-import awardPic from '../../assets/images/awardPic.jpg'
-import achievement from '../../assets/images/achievement.jpg'
+import awardPic from '../assets/images/awardPic.jpg'
+import achievement from '../assets/images/achievement.jpg'
 
 const AwardWrap = styled.section`
 	height: 80vh;
