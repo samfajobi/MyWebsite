@@ -18,7 +18,7 @@ const AwardWrap = styled.section`
 	}
 
 	.award-wrap {
-		animation: floatText 8s infinite linear;
+		animation: floatText 15s infinite linear;
 	}
 
 	.award-wrap:hover {
@@ -26,7 +26,7 @@ const AwardWrap = styled.section`
 	}
 	@keyframes floatText {
 		to {
-			transform: translateX(-10vw);
+			transform: translateX(-100vw);
 		}
 	}
 `;

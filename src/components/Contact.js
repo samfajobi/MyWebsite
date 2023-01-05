@@ -20,7 +20,7 @@ const contact = () => {
             </div>
             <div>
               <form className='flex flex-col space-y-6'>
-                <div className='flex space-x-3' > 
+                <div className='flex  space-x-3' > 
                   <input type="text" />
                   <input type="text" />
                 </div> 
