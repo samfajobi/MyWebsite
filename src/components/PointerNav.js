@@ -37,8 +37,8 @@ const data = [
 	{ title: 'Home', to: 'home' },
 	{ title: 'About', to: 'about' },
 	{ title: 'Work', to: 'projects' },
-	{ title: 'Skills', to: 'careers' },
-	{ title: 'Contact', to: 'awards' },
+	{ title: 'Skills', to: 'skills' },
+	{ title: 'Contact', to: 'contact' },
 ];
 
 const PointerNav = () => {

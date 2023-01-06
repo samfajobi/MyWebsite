@@ -11,8 +11,8 @@ function App() {
     <div>
       <Home />
       <Projects id="projects"/>
-      <Skills />
-      <Contact />
+      <Skills id="skills"/>
+      <Contact id="contact"/>
     </div>
   );
 }

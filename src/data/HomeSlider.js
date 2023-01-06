@@ -17,12 +17,12 @@ export const images = [
 		img: mall,
 		headerContent: 'FrontEnd Engineer',
 		descContent:
-			'Africa’s first private sector driven innovation hub with emphasis on modernity and optimized environment for social, technological and economic capital.',
+			'I am a Full-Stack Web Developer adept at building web app from front to back. I am Open to learning skills',
 	},
 	{
 		img: mojecpower,
 		headerContent: 'BackEnd Engineer',
 		descContent:
-			'MOJEC Power Company generates, transmits and distributes electricity.',
+			'I am a Full-Stack Web Developer adept at building web app from front to back. I am Open to learning skills',
 	}
 ];
