@@ -77,7 +77,7 @@ const Awards = (props) => {
 													/>
 													<div className='flex items-center justify-center absolute h-full w-full bg-black rounded-t-2xl bg-opacity-30'>
 														<h4 className='text-white font-semibold text-3xl capitalize'>
-															award
+															E-Commerce
 														</h4>
 													</div>
 												</div>
@@ -102,7 +102,7 @@ const Awards = (props) => {
 													/>
 													<div className='flex items-center justify-center absolute h-full w-full bg-black rounded-t-2xl bg-opacity-30'>
 														<h4 className='text-white font-semibold text-3xl capitalize'>
-															achievement
+															MERN Application
 														</h4>
 													</div>
 												</div>

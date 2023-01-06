@@ -20,11 +20,11 @@ import DSC_9349 from '../assets/images/aboutSlider/DSC_9349.jpg';
 export const data = [
 	{
 		img: DSC_8984,
-		altText: 'lagos state ministry of energy visit',
+		altText: 'I am a Full-Stack Web Developer adept at building web app from front to back. I am Open to learning skills',
 		headerText:
-			'Visit from Lagos State Ministry of Energy and Mineral Resources',
+			'I am a Full-Stack Web Developer adept at building web app from front to back. I am Open to learning skills',
 		descText:
-			'A courtesy visit to MOJEC International Limited Meter Factory by the delegations from the Lagos State Ministry of Energy and Mineral Resources.',
+			'I am a Full-Stack Web Developer adept at building web app from front to back. I am Open to learning skills',
 		images: [
 			DSC_8984,
 			DSC_9106,
@@ -105,10 +105,10 @@ export const data = [
 	},
 	{
 		img: DSC_9106,
-		altText: 'lagos smart meter hackathon',
-		headerText: 'Lagos state smart meter hackathon',
+		altText: 'I am a Full-Stack Web Developer adept at building web app from front to back. I am Open to learning skills',
+		headerText: 'I am a Full-Stack Web Developer adept at building web app from front to back. I am Open to learning skills',
 		descText:
-			'MOJEC MD, Ms. Chantelle Abdul, as one of the judges at the Lagos Smart Meter Hackthon, an initiative of the Lagos State Government. Also, MOJEC donates a sum of two million naira to the first runner-up at the Hackathon ',
+			'I am a Full-Stack Web Developer adept at building web app from front to back. I am Open to learning skills',
 		images: [
 			DSC_8984,
             DSC_9106,
