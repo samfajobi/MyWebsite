@@ -1,10 +1,10 @@
 import JavaScript from '../assets/images/images/skills/javascript.png'
 
 
-const skills = () => {
+const skills = (props) => {
   return (
-    <div className="h-[700px] mt-16 bg-slate-100  space-y-10"> 
-        <h1 className="text-4xl text-center text-4xl font-semibold ">Skills & Experience</h1>
+    <div className="h-[700px] mt-16 bg-slate-100  space-y-10" {...props}> 
+        <h1 className="text-4xl text-center  font-semibold ">Skills & Experience</h1>
         <div  className='flex flex-col  md:flex-row justify-center'>
           <div className='space-y-10 md:mx-10 '>
             <div className="flex flex-row justify-center space-x-8">

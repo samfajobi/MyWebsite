@@ -1,10 +1,10 @@
 import { PhoneIcon } from '@heroicons/react/24/solid'
 import { EnvelopeIcon } from '@heroicons/react/24/solid'
 
-const contact = () => {
+const contact = (props) => {
   return (
     <div className=" h-[600px] bg-gray-900 flex relative flex-col text-center
-     md:text-row items-center px-10 justify-evenly mx-auto">
+     md:text-row items-center px-10 justify-evenly mx-auto" {...props}>
        <h2 className="text-center text-white text-4xl font-semibold">Take Coffee and Chat With Me!!!</h2>
       
         <div className=" space-y-10 ">
