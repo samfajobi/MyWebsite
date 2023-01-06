@@ -36,7 +36,7 @@ const Navbar = () => {
             <div className='container mx-auto py-6 flex items-center justify-between'>
              <div>
               <img src="" alt="" />
-              <div className='text-2xl font-bold text-white'>Samuel.</div>
+              <div className=' ml-4 text-2xl font-bold text-white'>Samuel.</div>
              </div>
              <div>
                 <ul className='hidden md:flex space-x-10 text-white font-bold text-l'  >
@@ -61,7 +61,7 @@ const Navbar = () => {
               <div className='text-white hidden md:block  cursor-pointer'>
                 <span className='font-bold text-l text-white'>Resume</span> <FontAwesomeIcon icon={faFolderOpen} />
              </div>   
-              <div onClick={handleClick}  className=' text-white space-y-6 cursor-pointer md:hidden'>
+              <div onClick={handleClick}  className='mr-4 text-white space-y-6 cursor-pointer md:hidden'>
                 { !nav ? <FontAwesomeIcon icon={faBars} /> : <FontAwesomeIcon icon={faXmark} />}
               </div> 
             </div> 
