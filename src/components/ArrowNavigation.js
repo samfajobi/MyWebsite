@@ -89,7 +89,7 @@ const ArrowNavigation = ({to}) => {
 			<div className='arrowSection arrowContainer r'>
 				<span className=''></span>
 				<span></span>
-				<span></span>
+				<span></span>   
 				<span></span>
 			</div>
 		</ArrowWrap>
