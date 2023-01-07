@@ -32,7 +32,7 @@ const Navbar = () => {
 
    
     <div className=''>
-        <div className=' h-20 w-full bg-black fixed top-0'>
+        <div className=' h-20 w-full bg-black fixed top-0 '>
             <div className='container mx-auto py-6 flex items-center justify-between'>
              <div>
               <img src="" alt="" />

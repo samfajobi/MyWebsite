@@ -43,7 +43,7 @@ const data = [
 
 const PointerNav = () => {
 	return (
-		<PointerWrap className='fixed z-20 hidden lg:block right-8 top-1/3'>
+		<PointerWrap className='fixed z-20 lg:block right-8 top-1/3'>
 			{data.map((story, i) => (
 				<Link
 					key={i}
