@@ -41,10 +41,10 @@ const Navbar = () => {
              <div>
                 <ul className='hidden md:flex space-x-10 text-white font-bold text-l'  >
                     <li className='hover:text-gray-200' >
-                    <a href="/">Home</a>
+                    <a href="home">Home</a>
                     </li>
                     <li className='hover:text-gray-200' >
-                    <a href="/">About</a>
+                    <a href="about">About</a>
                     </li>
                     <li className='hover:text-gray-200' >
                     <a href="/">Work</a>   
@@ -68,13 +68,13 @@ const Navbar = () => {
           </div>
           <ul className={ !nav ? 'hidden' : 'bg-zinc-300  absolute left-0 w-full p-10 space-y-10 text-white text-center md:hidden'}>
                 <li className='hover:text-gray-300' >
-                  <a href="/">Home</a>
+                  <a href="/home">Home</a>
                 </li>
                 <li className='hover:text-gray-300' >
-                  <a href="/">About</a>
+                  <a href="/about">About</a>
                 </li>
                 <li className='hover:text-gray-300' >
-                  <a href="/">Work</a>
+                  <a href="/projects">Work</a>
                 </li>
                 <li className='hover:text-gray-300' >
                   <a href="/">Skills</a> 
