@@ -11,7 +11,7 @@ export const images = [
 		img: meter1,
 		headerContent: 'Full-Stack Developer',
 		descContent:
-			'I am a Full-Stack Web Developer adept at building web app from front to back. I am Open to learning skills',
+			'I am a Full-Stack Web Developer adept at building web app from front to back. I love learning new skills',
 	},
 	{
 		img: mall,
@@ -23,6 +23,6 @@ export const images = [
 		img: mojecpower,
 		headerContent: 'BackEnd Engineer',
 		descContent:
-			'I am a Full-Stack Web Developer adept at building web app from front to back. I am Open to learning skills',
+			'I can also with the front-end developers and other team members to establish objectives and design more functional, cohesive codes to enhance the user experience.',
 	}
 ];
