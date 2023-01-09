@@ -68,8 +68,8 @@ const Awards = (props) => {
 											key={award.id}
 											className='items-center cursor-pointer'
 										>
-											<section className='w-72 shadow-lg rounded-b-2xl'>
-												<div className='waves-bg h-44 rounded-t-2xl flex relative hover:bg-blue-300'>
+											<section className='w-72 shadow-lg rounded-b-2xl hover:bg-fuchsia-50'>
+												<div className='waves-bg h-44 rounded-t-2xl flex relative '>
 													<img
 														src={awardPic}
 														alt='award'

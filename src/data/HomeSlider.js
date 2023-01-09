@@ -17,7 +17,7 @@ export const images = [
 		img: mall,
 		headerContent: 'FrontEnd Engineer',
 		descContent:
-			'I am a Full-Stack Web Developer adept at building web app from front to back. I am Open to learning skills',
+			'I develop new user-facing features, I determine the structure and design of web pages, I build reusable codes, I optimize page loading times, and use a variety of markup languages to create the web pages',
 	},
 	{
 		img: mojecpower,
