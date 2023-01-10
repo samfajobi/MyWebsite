@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import awardPic from '../assets/images/awardPic.jpg'
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import LanguageIcon from '@mui/icons-material/Language';
 import achievement from '../assets/images/achievement.jpg'
 import { Link } from 'react-router-dom';
 
@@ -85,11 +86,11 @@ const Awards = (props) => {
 														</h4>
 													</div>
 													<div className='flex items-center space-x-6 rounded-t-2xl  bg-black/10 justify-center opacity-0 hover:opacity-90 hover:bg-gray-300 transition-all duration-400 hover:shadow-sm absolute flex-row h-full w-full'>
-													   <a className='rounded-full p-3 bg-slate-500' href={award.toGitHub}>
-													     <GitHubIcon />
+													   <a className='rounded-full p-3  bg-slate-500' href={award.toGitHub}>
+													     <GitHubIcon  className="hover:transition-all-0.3s-ease"/>
 													   </a>
 													   <a  className='rounded-full p-3 bg-slate-500' href={award.toWeb}>
-													     <FontAwesomeIcon icon={faGlobe} />
+													     <LanguageIcon />
 													   </a>	
 												    </div>
 												</div>
