@@ -21,8 +21,8 @@ const contact = (props) => {
             <div>
               <form className='flex flex-col space-y-6'>
                 <div className='flex  space-x-3' > 
-                  <input type="text" />
-                  <input type="text" />
+                  <input className="w-[50%]" type="text" />
+                  <input className="w-[50%]" type="text" />
                 </div> 
 
                 <input type="text" />
