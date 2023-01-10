@@ -3,8 +3,12 @@ import styled from 'styled-components';
 import { useState, useEffect } from "react"
 import { awards } from '../data/projects';
 import SkewWraper from './SkewWraper';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import awardPic from '../assets/images/awardPic.jpg'
+import { faGlobe } from '@fortawesome/free-solid-svg-icons';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import achievement from '../assets/images/achievement.jpg'
+import { Link } from 'react-router-dom';
 
 const AwardWrap = styled.section`
 	height: 80vh;
@@ -68,8 +72,8 @@ const Awards = (props) => {
 											key={award.id}
 											className='items-center cursor-pointer'
 										>
-											<section className='w-72 shadow-lg rounded-b-2xl hover:bg-fuchsia-50'>
-												<div className='waves-bg h-44 rounded-t-2xl flex relative '>
+											<section className=' relative w-72 shadow-lg rounded-b-2xl'>
+												<div className='waves-bg h-44 rounded-t-2xl flex relative  '>
 													<img
 														src={awardPic}
 														alt='award'
@@ -80,12 +84,22 @@ const Awards = (props) => {
 															{award.type}
 														</h4>
 													</div>
+													<div className='flex items-center space-x-6 rounded-t-2xl  bg-black/10 justify-center opacity-0 hover:opacity-90 hover:bg-gray-300 transition-all duration-400 hover:shadow-sm absolute flex-row h-full w-full'>
+													   <a className='rounded-full p-3 bg-slate-500' href={award.toGitHub}>
+													     <GitHubIcon />
+													   </a>
+													   <a  className='rounded-full p-3 bg-slate-500' href={award.toWeb}>
+													     <FontAwesomeIcon icon={faGlobe} />
+													   </a>	
+												    </div>
 												</div>
 												<div className='h-48 bg-white p-5 rounded-b-2xl w-full flex justify-center items-center awardlightbg'>
 													<p className='font-normal text-sm text-center'>
 														{award.desc}
 													</p>
+													
 												</div>
+												
 											</section>
 										</li>
 									 ) 

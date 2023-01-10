@@ -23,6 +23,6 @@ export const images = [
 		img: mojecpower,
 		headerContent: 'BackEnd Engineer',
 		descContent:
-			'I  also with the front-end developers and other team members to establish objectives and design more functional, cohesive codes to enhance the user experience.',
+			'I  also work with the front-end developers and other team members to establish objectives and design more functional, cohesive codes to enhance the user experience. ',
 	}
 ];
