@@ -20,9 +20,9 @@ import DSC_9349 from '../assets/images/aboutSlider/DSC_9349.jpg';
 export const data = [
 	{
 		img: DSC_8984,
-		altText: 'I am a Full-Stack Web Developer adept at building web app from front to back. I am Open to learning skills',
+		altText: 'I Enjoy Writing Codes',
 		headerText:
-			'I am a Full-Stack Web Developer adept at building web app from front to back. I am Open to learning skills',
+			'I Enjoy Writing Codes',
 		descText:
 			'I am a passionate and dedicated  Full stack developer adept at building web from front to back with so much efficiency and accuracy.Through bootcamps, online courses, i have developed a strong understanding of Javascript(ES5 & Es6), React Js, Node.Js, Express.Js, MongoDB, HTML%, CSS3. I find a lot of joy and excitement utilizing my skills in bringing ideas to life, troubleshooting bugs, and pushing my projects forward',
 		images: [
@@ -105,8 +105,8 @@ export const data = [
 	},
 	{
 		img: DSC_9106,
-		altText: 'I am a Full-Stack Web Developer adept at building web app from front to back. I am Open to learning skills',
-		headerText: 'I am a Full-Stack Web Developer adept at building web app from front to back. I am Open to learning skills',
+		altText: 'I Love Learning',
+		headerText: 'I Love Learning',
 		descText:
 			'I am open to all kinds of business ideas, job opportunities, open source projects and more. Feel free to connect with me! Let us talk about web dev, web design and anything related to tech. I would also like to know how i can be of help to your business or team.I am looking to collaborate and work with other passionate developers and expand my network.',
 		images: [
