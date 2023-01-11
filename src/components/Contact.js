@@ -21,14 +21,14 @@ const contact = (props) => {
             <div>
               <form className='flex flex-col space-y-6'>
                 <div className='flex  space-x-3' > 
-                  <input className="w-[50%]" type="text" />
-                  <input className="w-[50%]" type="text" />
+                  <input placeholder="Name" className="w-[50%] rounded-sm outline-none text-gray-500 placeholder-gray-500 px-6 py-4" type="text" />
+                  <input placeholder="Email" className="w-[50%] rounded-sm outline-none text-gray-500 placeholder-gray-500 px-6 py-4" type="text" />
                 </div> 
 
-                <input type="text" />
+                <input placeholder="Subject" className='rounded-sm outline-none text-gray-500 placeholder-gray-500 px-6 py-4' type="text" />
                 
-                <textarea />
-                <button className='rounded-md font-bold  py-5 bg-slate-300'>Submit</button>
+                <textarea placeholder="Message" className='rounded-sm outline-none text-gray-500 placeholder-gray-500 px-6 py-4' />
+                <button className='rounded-md font-bold hover:bg-slate-300 py-3 bg-slate-100'>Submit</button>
               </form>  
             </div>          
         </div>

@@ -5,7 +5,7 @@ import styled from "styled-components";
 import { images } from '../data/HomeSlider';
 import NextIcon from "../assets/svg/NextIcon";
 import PrevIcon from "../assets/svg/PrevIcon";
-import RightNavIcon from "../assets/svg/RightNavIcon";
+// import RightNavIcon from "../assets/svg/RightNavIcon";
 import ArrowNavigation from "./ArrowNavigation";
 import PointerNav from "./PointerNav";
 
@@ -165,7 +165,7 @@ const Slider = (props) => {
         {...props}
       >
         <PointerNav />
-        <ArrowNavigation to='in-the-news' />
+        <ArrowNavigation to='contact' />
           <AnimatePresence>
             <motion.img
               // src={sliderData[index]?.img?.asset?.url}
