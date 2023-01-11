@@ -9,14 +9,14 @@ const contact = (props) => {
       
         <div className=" space-y-10 ">
             <div className='flex flex-col items-center md:space-x-6 md:flex-row'>
-              <div className='rounded-md w-[300px] bg-slate-200 flex pt-4 pb-4 align-center items-center space-x-4 justify-center'>
+              <a href='tel:+234 (818) 239-6028' className='rounded-md w-[300px] bg-slate-200 flex pt-4 pb-4 align-center items-center space-x-4 justify-center'>
                 <PhoneIcon className='w-7 h-7'/>
                 <h4>08153382359</h4>
-              </div>
-              <div className='rounded-md w-[300px] mt-6 md:mt-0 bg-slate-200 flex pt-4 pb-4 items-center space-x-4 justify-center'>
+              </a>
+              <a href="mailto:olusegunfajobi12@gmail.com"  className='rounded-md w-[300px] mt-6 md:mt-0 bg-slate-200 flex pt-4 pb-4 items-center space-x-4 justify-center'>
                 <EnvelopeIcon className='w-7 h-7'/>
                 <h4>olusegunfajobi12@gmail.com</h4>
-              </div>
+              </a>
             </div>
             <div>
               <form className='flex flex-col space-y-6'>
