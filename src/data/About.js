@@ -104,7 +104,7 @@ export const data = [
 		],
 	},
 	{
-		img: DSC_9106,
+		img: DSC_8984,
 		altText: 'I Love Learning',
 		headerText: 'I Love Learning',
 		descText:
