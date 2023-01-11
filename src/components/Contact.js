@@ -28,7 +28,7 @@ const contact = (props) => {
                 <input placeholder="Subject" className='rounded-sm outline-none text-gray-500 placeholder-gray-500 px-6 py-4' type="text" />
                 
                 <textarea placeholder="Message" className='rounded-sm outline-none text-gray-500 placeholder-gray-500 px-6 py-4' />
-                <button className='rounded-md font-bold hover:bg-slate-300 py-3 bg-slate-100'>Submit</button>
+                <button className=' rounded-md font-bold hover:bg-slate-300 py-3 bg-slate-100'>Submit</button>
               </form>  
             </div>          
         </div>

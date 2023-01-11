@@ -31,7 +31,7 @@ const AwardWrap = styled.section`
 	}
 	@keyframes floatText {
 		to {
-			transform: translateX(-100vw);
+			transform: translateX(-50vw);
 		}
 	}
 `;
