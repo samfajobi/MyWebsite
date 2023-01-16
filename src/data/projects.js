@@ -3,7 +3,7 @@ export const awards = [
 		id: 1,
 		type: 'E-Commerce Web',
 		desc: 'A Web Application built with React.js',
-		toWeb: "/",
+		toWeb: "https://lumimi.vercel.app/",
 		toGitHub: "https://github.com/samfajobi/Lumimi-Ecommerce-Website"
 	},
 	{
@@ -35,3 +35,6 @@ export const awards = [
 		toGitHub: "https://github.com/samfajobi/MERN-Fullstack-EcommerceWebApp"
 	}
 ];
+
+
+

@@ -23,3 +23,6 @@ function App() {
 }
 
 export default App;
+
+
+//I am a self-motivated person who is willing to go above and beyond on any project, and to learn valuable skills on my own time. I am confident that I will thrive in this position, seeing that I have the skills the oganisation in looking for 
