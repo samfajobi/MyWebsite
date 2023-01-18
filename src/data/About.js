@@ -24,7 +24,7 @@ export const data = [
 		headerText:
 			'I Enjoy Writing Codes',
 		descText:
-			'I am a passionate and dedicated  Full stack developer adept at building web from front to back with so much efficiency and accuracy.Through bootcamps, online courses, i have developed a strong understanding of Javascript(ES5 & Es6), React Js, Node.Js, Express.Js, MongoDB, HTML%, CSS3. I find a lot of joy and excitement utilizing my skills in bringing ideas to life, troubleshooting bugs, and pushing my projects forward',
+			'I am a passionate and dedicated  Software Developer adept at building web from front to back with so much efficiency and accuracy.Through bootcamps, online courses, i have developed a strong understanding of Javascript(ES5 & Es6), React Js, Node.Js, Express.Js, MongoDB, HTML%, CSS3. I find a lot of joy and excitement utilizing my skills in bringing ideas to life, troubleshooting bugs, and pushing my projects forward',
 		images: [
 			DSC_8984,
 			DSC_9106,
