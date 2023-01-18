@@ -9,7 +9,7 @@ import retailjpg from '../assets/images/slider/mojecmeter.jpg';
 export const images = [
 	{
 		img: meter1,
-		headerContent: 'Full-Stack Developer',
+		headerContent: 'Software Developer',
 		descContent:
 			'I am a Software Web Developer adept at building web app from front to back. I love learning new skills',
 	},
