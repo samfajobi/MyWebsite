@@ -10,7 +10,7 @@ export const awards = [
 		id: 2,
 		type: 'Social Media App',
 		desc: 'A Social Media application',
-		toWeb: "precise-tracker.vercel.app",
+		toWeb: "https://precise-tracker.vercel.app",
 		toGitHub: "https://github.com/samfajobi/precise-tracker-frontend"
 	},
 	{
