@@ -133,7 +133,7 @@ const Awards = (props) => {
 							</ul>
 						</div>
 						<h2 className='font-bold capitalize text-3xl inline-block  text-gray-600 absolute z-10'>
-							My Personal Projects
+							 Projects
 						</h2>
 					</div>
 				</div>
