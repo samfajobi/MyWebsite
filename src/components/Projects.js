@@ -22,7 +22,7 @@ const AwardWrap = styled.section`
 		left: -1rem;
 	}
 
-	.award-wrap {
+	/* .award-wrap {
 		animation: floatText 15s infinite linear;
 	}
 
@@ -33,7 +33,7 @@ const AwardWrap = styled.section`
 		to {
 			transform: translateX(-50vw);
 		}
-	}
+	} */
 `;
 
 const Awards = (props) => {
@@ -117,7 +117,7 @@ const Awards = (props) => {
 									// 				/>
 									// 				<div className='flex items-center justify-center absolute h-full w-full bg-black rounded-t-2xl bg-opacity-30'>
 									// 					<h4 className='text-white font-semibold text-3xl capitalize'>
-									// 						MERN Application
+									// 				 	MERN Application
 									// 					</h4>
 									// 				</div>
 									// 			</div>
